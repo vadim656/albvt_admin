@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "goroda_bolniczies",
+  "info": {
+    "singularName": "goroda-bolniczy",
+    "pluralName": "goroda-bolniczies",
+    "displayName": "Города(Больницы)"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

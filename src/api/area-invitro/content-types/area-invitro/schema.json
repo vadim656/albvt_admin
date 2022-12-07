@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "area_invitros",
+  "info": {
+    "singularName": "area-invitro",
+    "pluralName": "area-invitros",
+    "displayName": "AreaInvitro",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "sityes_invitro": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sityes-invitro.sityes-invitro",
+      "inversedBy": "area_invitros"
+    },
+    "goroda_invitros": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::goroda-invitro.goroda-invitro",
+      "mappedBy": "area_invitro"
+    }
+  }
+}

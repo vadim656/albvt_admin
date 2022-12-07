@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sub_cats",
+  "info": {
+    "singularName": "sub-cat",
+    "pluralName": "sub-cats",
+    "displayName": "SubCat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "CatId": {
+      "type": "biginteger"
+    },
+    "URL": {
+      "type": "uid"
+    },
+    "kategorii_analizy": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "sub_cats"
+    },
+    "analizies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::analizy.analizy",
+      "mappedBy": "sub_cat"
+    },
+    "CatIdURL": {
+      "type": "string"
+    }
+  }
+}

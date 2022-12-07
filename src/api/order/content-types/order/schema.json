@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Заказы",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "UID": {
+      "type": "uid"
+    },
+    "Result": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "analizies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::analizy.analizy",
+      "inversedBy": "zakazies"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "zakazies"
+    },
+    "SummOrder": {
+      "type": "biginteger"
+    },
+    "Status": {
+      "type": "boolean",
+      "default": false
+    },
+    "DoctorPaid": {
+      "type": "boolean",
+      "default": false
+    },
+    "ZaprosVivod": {
+      "type": "boolean",
+      "default": false
+    },
+    "zaprosy_vrachej": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::zaprosy-vrachej.zaprosy-vrachej",
+      "inversedBy": "zakazies"
+    },
+    "StatusOplata": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

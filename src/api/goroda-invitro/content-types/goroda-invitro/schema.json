@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "goroda_invitros",
+  "info": {
+    "singularName": "goroda-invitro",
+    "pluralName": "goroda-invitros",
+    "displayName": "Города(Инвитро)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "PnPt": {
+      "type": "string"
+    },
+    "SbVs": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Coords": {
+      "type": "string"
+    },
+    "UID": {
+      "type": "uid"
+    },
+    "area_invitro": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::area-invitro.area-invitro",
+      "inversedBy": "goroda_invitros"
+    }
+  }
+}

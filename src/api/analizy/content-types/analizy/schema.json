@@ -1,0 +1,91 @@
+{
+  "kind": "collectionType",
+  "collectionName": "analizies",
+  "info": {
+    "singularName": "analizy",
+    "pluralName": "analizies",
+    "displayName": "Анализы",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Art": {
+      "type": "string"
+    },
+    "Desc": {
+      "type": "richtext"
+    },
+    "SubDesc": {
+      "type": "richtext"
+    },
+    "Price": {
+      "type": "biginteger"
+    },
+    "PriceSale": {
+      "type": "biginteger"
+    },
+    "UID": {
+      "type": "uid",
+      "targetField": "Art"
+    },
+    "TimeDone": {
+      "type": "biginteger"
+    },
+    "kategoriyas": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "analizies"
+    },
+    "Tags": {
+      "type": "richtext"
+    },
+    "Active": {
+      "type": "boolean"
+    },
+    "biomaterialies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::biomaterialy.biomaterialy"
+    },
+    "zakazies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::order.order",
+      "mappedBy": "analizies"
+    },
+    "inVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "DopAnalizes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::analizy.analizy",
+      "inversedBy": "DopAnaliz"
+    },
+    "DopAnaliz": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::analizy.analizy",
+      "inversedBy": "DopAnalizes"
+    },
+    "sub_cat": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sub-cat.sub-cat",
+      "inversedBy": "analizies"
+    },
+    "Complecs": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    }
+  }
+}

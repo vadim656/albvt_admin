@@ -1,0 +1,1354 @@
+{
+    "data": {
+      "productCategories": {
+        "edges": [
+          {
+            "node": {
+              "databaseId": 2824,
+              "name": "Гематологические исследования",
+              "slug": "gematologicheskie-issledovaniya",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Клинический анализ крови",
+                      "databaseId": 2849,
+                      "slug": "1-1-klinicheskij-analiz-krovi"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Иммуногематология",
+                      "databaseId": 2850,
+                      "slug": "1-2-immunogematologiya"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Оценка свертывающей системы крови (коагулограмма)",
+                      "databaseId": 2851,
+                      "slug": "1-3-oczenka-svertyvayushhej-sistemy-krovi-k"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2825,
+              "name": "Биохимические исследования",
+              "slug": "biohimicheskie-issledovaniya",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Глюкоза и метаболиты углеводного обмена",
+                      "databaseId": 2852,
+                      "slug": "2-1-glyukoza-i-metabolity-uglevodnogo-ob"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Витамины",
+                      "databaseId": 2861,
+                      "slug": "2-10-vitaminy"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Электролиты (микроэлементы)",
+                      "databaseId": 2862,
+                      "slug": "2-11-elektrolity-mikroelementy"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Специфические белки",
+                      "databaseId": 2863,
+                      "slug": "2-12-speczificheskie-belki"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Липиды, липопротеины, аполипопротеины",
+                      "databaseId": 2853,
+                      "slug": "2-2-lipidy-lipoproteiny-apolipoprotei"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Белки и аминокислоты",
+                      "databaseId": 2854,
+                      "slug": "2-3-belki-i-aminokisloty"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Оценка функции почек",
+                      "databaseId": 2855,
+                      "slug": "2-4-oczenka-funkczii-pochek"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Желчные пигменты и кислоты",
+                      "databaseId": 2856,
+                      "slug": "2-5-zhelchnye-pigmenty-i-kisloty"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Ферменты",
+                      "databaseId": 2857,
+                      "slug": "2-6-fermenty"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Оценка состояния инкреторной и секреторной функций ЖКТ",
+                      "databaseId": 2858,
+                      "slug": "2-7-oczenka-sostoyaniya-inkretornoj-i-sekr"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Маркеры метаболизма костной ткани",
+                      "databaseId": 2859,
+                      "slug": "2-8-markery-metabolizma-kostnoj-tkani"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Антиоксидантный статус",
+                      "databaseId": 2860,
+                      "slug": "2-9-antioksidantnyj-status"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2794,
+              "name": "Онкомаркеры",
+              "slug": "onkomarkery",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2826,
+              "name": "Гормоны",
+              "slug": "gormony",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Оценка функции гипофиза",
+                      "databaseId": 2864,
+                      "slug": "4-1-oczenka-funkczii-gipofiza"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Биогенные амины (BA)",
+                      "databaseId": 2873,
+                      "slug": "4-10-biogennye-aminy-ba"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Гормоны жировой ткани",
+                      "databaseId": 2874,
+                      "slug": "4-11-gormony-zhirovoj-tkani"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Регуляция эритропоэза",
+                      "databaseId": 2875,
+                      "slug": "4-12-regulyacziya-eritropoeza"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Гипофизарные гонадотропные гормоны и пролактин",
+                      "databaseId": 2865,
+                      "slug": "4-2-gipofizarnye-gonadotropnye-gormony"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Оценка функции щитовидной и паращитовидной желез",
+                      "databaseId": 2866,
+                      "slug": "4-3-oczenka-funkczii-shhitovidnoj-i-parashhit"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Оценка функции коры надпочечников",
+                      "databaseId": 2867,
+                      "slug": "4-4-oczenka-funkczii-kory-nadpochechnikov"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Андрогенные функции",
+                      "databaseId": 2868,
+                      "slug": "4-5-androgennye-funkczii"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Эстрогены и прогестины",
+                      "databaseId": 2869,
+                      "slug": "4-6-estrogeny-i-progestiny"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Нестероидные регуляторные факторы половых желез",
+                      "databaseId": 2870,
+                      "slug": "4-7-nesteroidnye-regulyatornye-faktory-p"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Мониторинг беременности, биохимические маркеры состояния плода",
+                      "databaseId": 2871,
+                      "slug": "4-8-monitoring-beremennosti-biohimiches"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Оценка эндокринной функции поджелудочной железы",
+                      "databaseId": 2872,
+                      "slug": "4-9-oczenka-endokrinnoj-funkczii-podzhelud"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2827,
+              "name": "Микроэлементы",
+              "slug": "mikroelementy",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Микроэлементы в крови (сыворотка крови, цельная кровь)",
+                      "databaseId": 2876,
+                      "slug": "5-1-mikroelementy-v-krovi-syvorotka-kro"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Микроэлементы в моче",
+                      "databaseId": 2877,
+                      "slug": "5-2-mikroelementy-v-moche"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Микроэлементы в волосах",
+                      "databaseId": 2878,
+                      "slug": "5-3-mikroelementy-v-volosah"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Микроэлементы в ногтях",
+                      "databaseId": 2879,
+                      "slug": "5-4-mikroelementy-v-nogtyah"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2828,
+              "name": "Лекарственный мониторинг",
+              "slug": "lekarstvennyj-monitoring",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2796,
+              "name": "Моча",
+              "slug": "mocha",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Клинические тесты",
+                      "databaseId": 2845,
+                      "slug": "7-1-klinicheskie-testy"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Биохимия мочи (суточная экскреция)",
+                      "databaseId": 2846,
+                      "slug": "7-2-biohimiya-mochi-sutochnaya-ekskrecziya"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Психоактивные вещества в моче",
+                      "databaseId": 2847,
+                      "slug": "7-3-psihoaktivnye-veshhestva-v-moche"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Исследование почечного камня",
+                      "databaseId": 2848,
+                      "slug": "7-4-issledovanie-pochechnogo-kamnya"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2795,
+              "name": "Кал",
+              "slug": "kal",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2829,
+              "name": "Инфекционные заболевания",
+              "slug": "infekczionnye-zabolevaniya",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Бактериальные",
+                      "databaseId": 2882,
+                      "slug": "bakterialnye",
+                      "children": {
+                        "edges": [
+                          {
+                            "node": {
+                              "name": "Сифилис",
+                              "databaseId": 2973,
+                              "slug": "9-28-sifilis-treponema-pallidum"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Боррелиоз (болезнь Лайма)",
+                              "databaseId": 2974,
+                              "slug": "9-29-borrelioz-bolezn-lajma-borreliosis"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Мобилункус",
+                              "databaseId": 2975,
+                              "slug": "9-30-mobilunkus-mobiluncus-curtisii-m-mulieris"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Бактероидная флора",
+                              "databaseId": 2976,
+                              "slug": "9-31-bakteroidnaya-flora-bacteroides-spp"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Гонорея (гонококк)",
+                              "databaseId": 2977,
+                              "slug": "9-32-gonoreya-gonokokk-neisseria-gonorrhoeae"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Гарднереллез",
+                              "databaseId": 2978,
+                              "slug": "9-33-gardnerellez-gardnerella-gardnerella-vaginalis"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Туберкулез",
+                              "databaseId": 2979,
+                              "slug": "9-34-tuberkulez-mikobakterii-tuberkule"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Хеликобактерная инфекция",
+                              "databaseId": 2980,
+                              "slug": "9-35-helikobakternaya-infekcziya-helikoba"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Криптоспоридиоз",
+                              "databaseId": 2981,
+                              "slug": "9-36-kriptosporidioz-vodyanistaya-diareya"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Микоплазменная инфекция",
+                              "databaseId": 2982,
+                              "slug": "9-37-mikoplazmennaya-infekcziya-mikoplazm"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Уреаплазмоз",
+                              "databaseId": 2983,
+                              "slug": "9-38-ureaplazmoz-ureaplazmy-ureaplasmosis-ureaplasma-spp-ureaplasma-urealyticum-ureapla"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Хламидийная инфекция",
+                              "databaseId": 2984,
+                              "slug": "9-39-hlamidijnaya-infekcziya-hlamidioz-hla"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Листериоз",
+                              "databaseId": 2985,
+                              "slug": "9-40-listerioz-listerii-listeria-monocytogenes-listeriosis"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Стрептококковая инфекция",
+                              "databaseId": 2986,
+                              "slug": "9-41-streptokokkovaya-infekcziya-streptok"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Менингококк",
+                              "databaseId": 2987,
+                              "slug": "9-42-meningit-meningokokk-neisseria-meningitides"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Стафилококковая инфекция",
+                              "databaseId": 2988,
+                              "slug": "9-43-stafilokokkovaya-infekcziya-stafilok"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Гемофильная инфекция",
+                              "databaseId": 2989,
+                              "slug": "9-44-gemofilnaya-infekcziya-haemophilus-influenzae"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Дифтерия",
+                              "databaseId": 2990,
+                              "slug": "9-45-difteriya-difterijnaya-palochka-corynebacterium-diphtheriae"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Коклюш",
+                              "databaseId": 2991,
+                              "slug": "9-46-koklyush-bordetella-pertussis"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Паракоклюш",
+                              "databaseId": 2992,
+                              "slug": "9-47-parakoklyush-bordetella-parapertussis"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Вирусные",
+                      "databaseId": 2881,
+                      "slug": "virusnye",
+                      "children": {
+                        "edges": [
+                          {
+                            "node": {
+                              "name": "ВИЧ-инфекция",
+                              "databaseId": 2946,
+                              "slug": "9-1-vich-infekcziya-virus-immunodeficzita-ch"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Герпес-вирус человека 3 типа (опоясывающий лишай), Варицелла-Зостер, Ветряная оспа",
+                              "databaseId": 2955,
+                              "slug": "9-10-gerpes-virus-cheloveka-3-tipa-opoyasyva"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Герпес-вирус человека 4 типа (вирус Эпштейна-Барр)",
+                              "databaseId": 2956,
+                              "slug": "9-11-gerpes-virus-cheloveka-4-tipa-virus-epsh"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Герпес-вирус человека 5 типа (цитомегаловирус)",
+                              "databaseId": 2957,
+                              "slug": "9-12-gerpes-virus-cheloveka-5-tipa-czitomega"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Герпес-вирус человека 6 типа",
+                              "databaseId": 2958,
+                              "slug": "9-13-gerpes-virus-cheloveka-6-tipa-hhv-6"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Герпес-вирус человека 8 типа",
+                              "databaseId": 2959,
+                              "slug": "9-14-gerpes-virus-cheloveka-8-tipa-hhv-8"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Т-лимфотропный вирус",
+                              "databaseId": 2960,
+                              "slug": "9-15-t-limfotropnyj-virus-htlv"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Краснуха",
+                              "databaseId": 2961,
+                              "slug": "9-16-krasnuha-rubella-virus"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Корь",
+                              "databaseId": 2962,
+                              "slug": "9-17-kor-morbillivirus"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Паротит эпидемический",
+                              "databaseId": 2963,
+                              "slug": "9-18-parotit-epidemicheskij"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Респираторно-синцитиальный вирус",
+                              "databaseId": 2964,
+                              "slug": "9-19-respiratorno-sinczitialnaya-infekczi"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Вирус папилломы человека",
+                              "databaseId": 2947,
+                              "slug": "9-2-vpch-infekcziya-papillomavirusnaya-inf"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Аденовирусная инфекция",
+                              "databaseId": 2965,
+                              "slug": "9-20-adenovirusnaya-infekcziya"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Острые кишечные инфекции",
+                              "databaseId": 2966,
+                              "slug": "9-21-ostrye-kishechnye-infekczii"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Ротавирусная инфекция",
+                              "databaseId": 2967,
+                              "slug": "9-22-rotavirusnaya-infekcziya-rotavirus-rotavirus"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Энтеровирус",
+                              "databaseId": 2968,
+                              "slug": "9-23-enterovirus"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Вирус клещевого энцефалита",
+                              "databaseId": 2969,
+                              "slug": "9-24-kleshhevoj-enczefalit-virus-kleshhevogo"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Парвовирус В19",
+                              "databaseId": 2970,
+                              "slug": "9-25-parvovirus-v19-parvovirus-b19"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Полиомиелит",
+                              "databaseId": 2971,
+                              "slug": "9-26-poliomielit"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Коронавирусная инфекция (COVID-19)",
+                              "databaseId": 2972,
+                              "slug": "9-27-koronavirusnaya-infekcziya-covid-19"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Грибковые",
+                      "databaseId": 2883,
+                      "slug": "gribkovye",
+                      "children": {
+                        "edges": [
+                          {
+                            "node": {
+                              "name": "Микозы",
+                              "databaseId": 3003,
+                              "slug": "9-58-mikozy-parazitarnye-griby-dermato"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Кандидоз",
+                              "databaseId": 3004,
+                              "slug": "9-59-kandidoz-kandida-candidiasis-candida"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Аспергиллез",
+                              "databaseId": 3005,
+                              "slug": "9-60-aspergillez"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Паразитарные",
+                      "databaseId": 2884,
+                      "slug": "parazitarnye",
+                      "children": {
+                        "edges": [
+                          {
+                            "node": {
+                              "name": "Простейшие",
+                              "databaseId": 3006,
+                              "slug": "9-61-prostejshie-dizenterijnaya-ameba-lyam"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Дизентерия амебная",
+                              "databaseId": 3007,
+                              "slug": "9-62-dizenteriya-amebnaya-amebiaz-entamoeba-histolytica"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Лямблиоз",
+                              "databaseId": 3008,
+                              "slug": "9-63-lyambliozlyamblii-giardia-lamblia-intestinalis"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Токсоплазмоз",
+                              "databaseId": 3009,
+                              "slug": "9-64-toksoplazmoz-toksoplazma-toxoplasmosistoxoplasma-gondii"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Трихомониаз",
+                              "databaseId": 3010,
+                              "slug": "9-65-trihomoniaz-trihomonada-trichomonas-vaginalis-trichomoniasis"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Гельминтоз",
+                              "databaseId": 3011,
+                              "slug": "9-66-gelmintoz"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Энтеробиоз",
+                              "databaseId": 3012,
+                              "slug": "9-67-enterobioz-ostriczy-enterobius-spp"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Аскаридоз",
+                              "databaseId": 3013,
+                              "slug": "9-68-askaridoz"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Токсокароз",
+                              "databaseId": 3014,
+                              "slug": "9-69-toksokaroz-toksokara-toxocara-canis"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Описторхоз (кошачья двуустка)",
+                              "databaseId": 3015,
+                              "slug": "9-70-opistorhoz-koshachya-dvuustka-opisthorchis-felineus"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Трихинеллез",
+                              "databaseId": 3016,
+                              "slug": "9-71-trihinellez-trihinella-trichinella-spiralis"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Эхинококкоз",
+                              "databaseId": 3017,
+                              "slug": "9-72-ehinokokkoz-ehinokokki-echinococcus-spp"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Стронгилоидоз",
+                              "databaseId": 3018,
+                              "slug": "9-73-strongiloidoz-strongyloides-stercoralis"
+                            }
+                          },
+                          {
+                            "node": {
+                              "name": "Демодекоз (клещ демодекс)",
+                              "databaseId": 3019,
+                              "slug": "9-74-demodekoz-kleshh-demodeks-demodex-folliculorum-demodex-brevis"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2830,
+              "name": "Микробиологические исследования: неспецифические воспалительные заболевания",
+              "slug": "mikrobiologicheskie-issledovaniya-ne",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2831,
+              "name": "Иммунологические",
+              "slug": "immunologicheskie",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Комплексные иммунологические исследования",
+                      "databaseId": 2886,
+                      "slug": "11-1-kompleksnye-immunologicheskie-issle"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Иммуноглобулины общие",
+                      "databaseId": 2887,
+                      "slug": "11-2-immunoglobuliny-obshhie"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Специфические белки",
+                      "databaseId": 2888,
+                      "slug": "11-3-speczificheskie-belki"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Компоненты комплемента",
+                      "databaseId": 2889,
+                      "slug": "11-4-komponenty-komplementa"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Цитокины",
+                      "databaseId": 2890,
+                      "slug": "11-5-czitokiny"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2832,
+              "name": "Интерфероновый статус",
+              "slug": "interferonovyj-status",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Интерфероновый статус",
+                      "databaseId": 2891,
+                      "slug": "12-1-interferonovyj-status"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Интерфероновый статус (4 показателя) с определением чувствительности к препаратам интерферона",
+                      "databaseId": 2892,
+                      "slug": "12-2-interferonovyj-status-4-pokazatelya-s"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Интерфероновый статус (4 показателя) с определением чувствительности к индукторам интерферона",
+                      "databaseId": 2893,
+                      "slug": "12-3-interferonovyj-status-4-pokazatelya-s"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Интерфероновый статус (4 показателя) с определением чувствительности к иммуномодуляторам",
+                      "databaseId": 2894,
+                      "slug": "12-4-interferonovyj-status-4-pokazatelya-s"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2833,
+              "name": "Диагностика аутоиммунных заболеваний",
+              "slug": "diagnostika-autoimmunnyh-zabolevani",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Системные заболевания соединительной ткани",
+                      "databaseId": 2895,
+                      "slug": "13-1-sistemnye-zabolevaniya-soediniteln"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Аутоиммунные поражения желудочно-кишечного тракта. Целиакия",
+                      "databaseId": 2904,
+                      "slug": "13-10-autoimmunnye-porazheniya-zheludochno-k"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Аутоиммунные поражения печени",
+                      "databaseId": 2905,
+                      "slug": "13-11-autoimmunnye-porazheniya-pecheni"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Аутоиммунные неврологические заболевания",
+                      "databaseId": 2906,
+                      "slug": "13-12-autoimmunnye-nevrologicheskie-zabo"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Аутоиммунные заболевания легких и сердца",
+                      "databaseId": 2907,
+                      "slug": "13-13-autoimmunnye-zabolevaniya-legkih-i-s"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Иммунные тромбоцитопении",
+                      "databaseId": 2908,
+                      "slug": "13-14-immunnye-tromboczitopenii"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Антифосфолипидный синдром",
+                      "databaseId": 2896,
+                      "slug": "13-2-antifosfolipidnyj-sindrom"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Иммунные факторы бесплодия",
+                      "databaseId": 2897,
+                      "slug": "13-3-immunnye-faktory-besplodiya"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Ревматоидный артрит, поражения суставов (APS)",
+                      "databaseId": 2898,
+                      "slug": "13-4-revmatoidnyj-artrit-porazheniya-sust"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Васкулиты и поражения почек",
+                      "databaseId": 2899,
+                      "slug": "13-5-vaskulity-i-porazheniya-pochek"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Аутоиммунные эндокринопатии: сахарный диабет 1-го типа",
+                      "databaseId": 2900,
+                      "slug": "13-6-autoimmunnye-endokrinopatii-sahar"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Аутоиммунные эндокринопатии: аутоиммунные заболевания щитовидной железы",
+                      "databaseId": 2901,
+                      "slug": "13-7-autoimmunnye-endokrinopatii-autoi"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Аутоиммунные эндокринопатии: поражение надпочечников, аутоиммунная патология гонад",
+                      "databaseId": 2902,
+                      "slug": "13-8-autoimmunnye-endokrinopatii-porazh"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Аутоиммунные заболевания кожи",
+                      "databaseId": 2903,
+                      "slug": "13-9-autoimmunnye-zabolevaniya-kozhi"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2834,
+              "name": "Аллергологические исследования",
+              "slug": "allergologicheskie-issledovaniya",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Аллергологические исследования, технология ImmunoCAP",
+                      "databaseId": 2909,
+                      "slug": "14-1-allergologicheskie-issledovaniya-te"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Определение специфических IgG: бытовые аллергены",
+                      "databaseId": 2918,
+                      "slug": "14-10-opredelenie-speczificheskih-igg-bytovye"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Определение специфических IgG: аллергены животных",
+                      "databaseId": 2919,
+                      "slug": "14-11-opredelenie-speczificheskih-igg-allerge"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Иммуноглобулин Е общий",
+                      "databaseId": 2910,
+                      "slug": "14-2-immunoglobulin-e-obshhij"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Определение специфических IgE: комплексные аллергопанели",
+                      "databaseId": 2911,
+                      "slug": "14-3-opredelenie-speczificheskih-ige-komplek"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Определение специфических IgE: пищевые аллергены",
+                      "databaseId": 2912,
+                      "slug": "14-4-opredelenie-speczificheskih-ige-pishhevye"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Определение специфических IgE: бытовые аллергены",
+                      "databaseId": 2913,
+                      "slug": "14-5-opredelenie-speczificheskih-ige-bytovye"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Определение специфических IgE: аллергены животных",
+                      "databaseId": 2914,
+                      "slug": "14-6-opredelenie-speczificheskih-ige-allerge"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Определение специфических IgE: аллергены пыльцы растений",
+                      "databaseId": 2915,
+                      "slug": "14-7-opredelenie-speczificheskih-ige-allerge"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Определение специфических IgE: профессиональные аллергены",
+                      "databaseId": 2916,
+                      "slug": "14-8-opredelenie-speczificheskih-ige-profess"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Определение специфических IgG: пищевые аллергены",
+                      "databaseId": 2917,
+                      "slug": "14-9-opredelenie-speczificheskih-igg-pishhevye"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2835,
+              "name": "Исследование спермы и связанные тесты",
+              "slug": "issledovanie-spermy-i-svyazannye-test",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2836,
+              "name": "Исследования желчи",
+              "slug": "issledovaniya-zhelchi",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2837,
+              "name": "Цитологические исследования",
+              "slug": "czitologicheskie-issledovaniya",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Жидкостная цитология, окрашивание по Папаниколау",
+                      "databaseId": 2922,
+                      "slug": "17-1-zhidkostnaya-czitologiya-okrashivanie-p"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Окрашивание по Папаниколау ‒ Рар-тест",
+                      "databaseId": 2923,
+                      "slug": "17-2-okrashivanie-po-papanikolau-%E2%80%92-rar-tes"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Окрашивание по Романовскому-Гимзе",
+                      "databaseId": 2924,
+                      "slug": "17-3-okrashivanie-po-romanovskomu-gimze"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Консультация готовых препаратов",
+                      "databaseId": 2925,
+                      "slug": "17-4-konsultacziya-gotovyh-preparatov"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2838,
+              "name": "Гистологические исследования",
+              "slug": "gistologicheskie-issledovaniya",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Гистологические исследования с окрашиванием гематоксилин-эозином",
+                      "databaseId": 2926,
+                      "slug": "18-1-gistologicheskie-issledovaniya-s-okr"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Иммуногистохимические исследования",
+                      "databaseId": 2927,
+                      "slug": "18-2-immunogistohimicheskie-issledovani"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2839,
+              "name": "Цитогенетические исследования",
+              "slug": "czitogeneticheskie-issledovaniya",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2840,
+              "name": "Онкогенетические исследования",
+              "slug": "onkogeneticheskie-issledovaniya",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2841,
+              "name": "Генетические предрасположенности",
+              "slug": "geneticheskie-predraspolozhennosti",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Нарушения обмена веществ",
+                      "databaseId": 2938,
+                      "slug": "21-10-narusheniya-obmena-veshhestv"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Фармакогенетика",
+                      "databaseId": 2939,
+                      "slug": "21-11-farmakogenetika"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Система детоксикации ксенобиотиков и канцерогенов",
+                      "databaseId": 2940,
+                      "slug": "21-12-sistema-detoksikaczii-ksenobiotiko"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Услуги врача-генетика",
+                      "databaseId": 2941,
+                      "slug": "21-13-uslugi-vracha-genetika"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Определение пола плода",
+                      "databaseId": 2942,
+                      "slug": "21-14-opredelenie-pola-ploda"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Аутоиммунные заболевания",
+                      "databaseId": 2943,
+                      "slug": "21-15-autoimmunnye-zabolevaniya"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Образ жизни и генетические факторы (Lifestyle and Genetic Factors)",
+                      "databaseId": 2930,
+                      "slug": "21-2-obraz-zhizni-i-geneticheskie-faktory-lifestyl"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Репродуктивное здоровье",
+                      "databaseId": 2931,
+                      "slug": "21-3-reproduktivnoe-zdorove"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "HLA-типирование и резус-фактор",
+                      "databaseId": 2932,
+                      "slug": "21-4-hla-tipirovanie-i-rezus-faktor"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Система свертывания крови",
+                      "databaseId": 2933,
+                      "slug": "21-5-sistema-svertyvaniya-krovi"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Болезни сердца и сосудов",
+                      "databaseId": 2934,
+                      "slug": "21-6-bolezni-serdcza-i-sosudov"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Болезни желудочно-кишечного тракта",
+                      "databaseId": 2935,
+                      "slug": "21-7-bolezni-zheludochno-kishechnogo-trakta"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Болезни центральной нервной системы",
+                      "databaseId": 2936,
+                      "slug": "21-8-bolezni-czentralnoj-nervnoj-sistem"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Онкологические заболевания",
+                      "databaseId": 2937,
+                      "slug": "21-9-onkologicheskie-zabolevaniya"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2842,
+              "name": "Наследственные моногенные заболевания",
+              "slug": "nasledstvennye-monogennye-zabolevan",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2843,
+              "name": "Определение отцовства и материнства",
+              "slug": "opredelenie-otczovstva-i-materinstva",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "databaseId": 2844,
+              "name": "Наследственные болезни обмена веществ у новорожденных / скрининг \"Пяточка\"",
+              "slug": "nasledstvennye-bolezni-obmena-veshhes",
+              "parentDatabaseId": 2822,
+              "children": {
+                "edges": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    "extensions": {
+      "debug": []
+    }
+  }

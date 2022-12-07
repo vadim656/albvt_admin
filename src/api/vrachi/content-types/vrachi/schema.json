@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vrachis",
+  "info": {
+    "singularName": "vrachi",
+    "pluralName": "vrachis",
+    "displayName": "Врачи",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FIO": {
+      "type": "string"
+    },
+    "Photo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "users_permissions_users": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "vrachis"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sityes_invitros",
+  "info": {
+    "singularName": "sityes-invitro",
+    "pluralName": "sityes-invitros",
+    "displayName": "SityesInvitro",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "area_invitros": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::area-invitro.area-invitro",
+      "mappedBy": "sityes_invitro"
+    }
+  }
+}

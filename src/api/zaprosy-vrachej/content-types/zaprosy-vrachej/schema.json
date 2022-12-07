@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zaprosy_vrachejs",
+  "info": {
+    "singularName": "zaprosy-vrachej",
+    "pluralName": "zaprosy-vrachejs",
+    "displayName": "Запросы Врачей",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Data": {
+      "type": "date"
+    },
+    "UID": {
+      "type": "uid"
+    },
+    "Summ": {
+      "type": "biginteger"
+    },
+    "Done": {
+      "type": "boolean",
+      "default": false
+    },
+    "oplataCheck": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "zaprosy_vrachejs"
+    },
+    "zakazies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::order.order",
+      "mappedBy": "zaprosy_vrachej"
+    }
+  }
+}

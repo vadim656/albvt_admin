@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorys",
+  "info": {
+    "singularName": "category",
+    "pluralName": "categorys",
+    "displayName": "Категории анализы",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "analizies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::analizy.analizy",
+      "mappedBy": "kategoriyas"
+    },
+    "RelLink": {
+      "type": "string"
+    },
+    "sub_cats": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sub-cat.sub-cat",
+      "mappedBy": "kategorii_analizy"
+    }
+  }
+}

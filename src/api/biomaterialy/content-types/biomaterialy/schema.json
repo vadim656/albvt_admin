@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "biomaterialies",
+  "info": {
+    "singularName": "biomaterialy",
+    "pluralName": "biomaterialies",
+    "displayName": "Биоматериалы",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "DataAdd": {
+      "type": "integer"
+    },
+    "Price": {
+      "type": "biginteger"
+    }
+  }
+}
