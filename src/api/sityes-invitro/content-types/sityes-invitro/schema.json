@@ -17,9 +17,9 @@
     },
     "area_invitros": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::area-invitro.area-invitro",
-      "mappedBy": "sityes_invitro"
+      "inversedBy": "sityes_invitros"
     }
   }
 }

@@ -15,9 +15,9 @@
     "Name": {
       "type": "string"
     },
-    "sityes_invitro": {
+    "sityes_invitros": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::sityes-invitro.sityes-invitro",
       "inversedBy": "area_invitros"
     },
@@ -26,6 +26,10 @@
       "relation": "oneToMany",
       "target": "api::goroda-invitro.goroda-invitro",
       "mappedBy": "area_invitro"
+    },
+    "Invitro": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

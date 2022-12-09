@@ -4,18 +4,19 @@
   "info": {
     "singularName": "goroda-invitro",
     "pluralName": "goroda-invitros",
-    "displayName": "Города(Инвитро)"
+    "displayName": "Офисы",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "Name": {
       "type": "string"
     },
-    "PnPt": {
-      "type": "string"
+    "Regim": {
+      "type": "text"
     },
     "SbVs": {
       "type": "string"
@@ -34,6 +35,25 @@
       "relation": "manyToOne",
       "target": "api::area-invitro.area-invitro",
       "inversedBy": "goroda_invitros"
+    },
+    "Invitro": {
+      "type": "boolean",
+      "default": false
+    },
+    "zakazies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::order.order",
+      "inversedBy": "ofisies"
+    },
+    "Sb": {
+      "type": "string"
+    },
+    "Phone2": {
+      "type": "string"
+    },
+    "Vs": {
+      "type": "string"
     }
   }
 }

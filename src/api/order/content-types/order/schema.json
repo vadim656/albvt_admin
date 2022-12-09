@@ -60,6 +60,12 @@
     "StatusOplata": {
       "type": "boolean",
       "default": false
+    },
+    "ofisies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::goroda-invitro.goroda-invitro",
+      "mappedBy": "zakazies"
     }
   }
 }

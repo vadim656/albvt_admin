@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "type_gorods",
+  "info": {
+    "singularName": "type-gorod",
+    "pluralName": "type-gorods",
+    "displayName": "TypeGorod"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Invitro": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
