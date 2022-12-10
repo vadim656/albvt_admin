@@ -2,15 +2,17 @@ module.exports = ({ env }) => ({
   graphql: {
     config: {
       depthLimit: 12,
-      amountLimit: 100,
-    },
+      amountLimit: 100
+    }
   },
+
+  ckeditor: true,
   'import-export-entries': {
     enabled: true
   },
   'strapi-plugin-populate-deep': {
     config: {
-      defaultDepth: 10, // Default is 5
+      defaultDepth: 10 // Default is 5
     }
   },
   'fuzzy-search': {

@@ -15,9 +15,6 @@
     "Name": {
       "type": "string"
     },
-    "Regim": {
-      "type": "text"
-    },
     "SbVs": {
       "type": "string"
     },
@@ -54,6 +51,9 @@
     },
     "Vs": {
       "type": "string"
+    },
+    "GegimRaboty": {
+      "type": "richtext"
     }
   }
 }
