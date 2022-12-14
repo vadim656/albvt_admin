@@ -122,6 +122,9 @@
     "Promo": {
       "type": "uid",
       "maxLength": 6
+    },
+    "Gender": {
+      "type": "boolean"
     }
   }
 }
