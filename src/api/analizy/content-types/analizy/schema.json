@@ -86,6 +86,18 @@
       "type": "boolean",
       "default": true,
       "required": false
+    },
+    "complecsAnaliz": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::analizy.analizy",
+      "inversedBy": "analizies"
+    },
+    "analizies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::analizy.analizy",
+      "inversedBy": "complecsAnaliz"
     }
   }
 }

@@ -1,0 +1,26 @@
+ComponentComplectuyshieFilter1
+ComponentModernizacModernizacziya
+ComponentMestoMesto
+ComponentArendaYacheikiArendlaYachejki
+ComponentTipAsicTipAsic
+ComponentTipRabotTipRabot
+ComponentZapRemAsicsZapchastiDlyaRemontaAsic
+ComponentCompAsicsKomplektuyushhieAsic
+ComponentArendaYacheikiArendlaYachejki
+ComponentTipFermiTipFermy
+ComponentMoshkvMoshhnostKVt
+ComponentRemontAsicRemontAsic
+ComponentSborkaFermiSborkaFermy
+ComponentObsluzhasicObsluzhivanieAsic
+
+
+
+DostavkaLength
+DostavkaWidth
+DostavkaHeight
+DostavkaVes
+
+
+   set $root_path /var/www/site_user/data/www/1101785-ce16415.tmweb.ru/amper;
+    root $root_path;
+    disable_symlinks if_not_owner from=$root_path;

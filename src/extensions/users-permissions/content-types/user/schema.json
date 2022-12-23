@@ -71,9 +71,9 @@
     },
     "zakazies": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::order.order",
-      "mappedBy": "user"
+      "mappedBy": "users"
     },
     "RoleUser": {
       "type": "string",
@@ -125,6 +125,15 @@
     },
     "Gender": {
       "type": "boolean"
+    },
+    "Passport": {
+      "type": "string"
+    },
+    "ofisies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::goroda-invitro.goroda-invitro",
+      "inversedBy": "users"
     }
   }
 }

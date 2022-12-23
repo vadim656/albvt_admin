@@ -19,7 +19,7 @@
       "type": "uid"
     },
     "Summ": {
-      "type": "biginteger"
+      "type": "float"
     },
     "Done": {
       "type": "boolean",

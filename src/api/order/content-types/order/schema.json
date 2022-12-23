@@ -30,12 +30,6 @@
       "target": "api::analizy.analizy",
       "inversedBy": "zakazies"
     },
-    "user": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "plugin::users-permissions.user",
-      "inversedBy": "zakazies"
-    },
     "SummOrder": {
       "type": "biginteger"
     },
@@ -66,6 +60,12 @@
       "relation": "manyToMany",
       "target": "api::goroda-invitro.goroda-invitro",
       "mappedBy": "zakazies"
+    },
+    "users": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "zakazies"
     }
   }
 }
