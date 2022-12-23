@@ -22,53 +22,27 @@ module.exports = ({ env }) => ({
         {
           uid: 'api::analizy.analizy',
           modelName: 'analizy',
-          // transliterate: true,
+          transliterate: true,
           fuzzysortOptions: {
-            characterLimit: 300,
-            threshold: -600,
-            limit: 25,
+            characterLimit: 100,
+            threshold: -400,
+            limit: 30,
             keys: [
               {
                 name: 'Name',
-                weight: 100
+                weight: 200
               },
               {
                 name: 'Art',
                 weight: 100
-              }
+              },
+              {
+                name: 'Tags',
+                weight: 300
+              },
             ]
           }
         },
-        {
-          uid: 'api::vrachi.vrachi',
-          modelName: 'vrachi',
-          fuzzysortOptions: {
-            characterLimit: 300,
-            threshold: -600,
-            limit: 10,
-            keys: [
-              {
-                name: 'FIO',
-                weight: 200
-              }
-            ]
-          }
-        },
-        {
-          uid: 'plugin::users-permissions.user',
-          modelName: 'users',
-          fuzzysortOptions: {
-            characterLimit: 300,
-            threshold: -600,
-            limit: 10,
-            keys: [
-              {
-                name: 'FIO_user',
-                weight: 100
-              }
-            ]
-          }
-        }
       ]
     }
   }
