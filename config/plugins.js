@@ -68,7 +68,7 @@ module.exports = ({ env }) => ({
           modelName: 'analizy',
           transliterate: true,
           fuzzysortOptions: {
-            characterLimit: 100,
+            characterLimit: 120,
             threshold: -400,
             limit: 30,
             keys: [
