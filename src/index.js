@@ -16,6 +16,7 @@ module.exports = {
           definition(t) {
             t.string("FIO_user")
             t.string('Stavka')
+            t.string('DataRozgdeniya')
             t.string('RoleUser');
           },
         }),
