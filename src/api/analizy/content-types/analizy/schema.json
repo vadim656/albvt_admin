@@ -98,6 +98,13 @@
       "relation": "manyToMany",
       "target": "api::analizy.analizy",
       "inversedBy": "complecsAnaliz"
+    },
+    "Populate": {
+      "type": "boolean",
+      "default": false
+    },
+    "PopulateComplecs": {
+      "type": "boolean"
     }
   }
 }
