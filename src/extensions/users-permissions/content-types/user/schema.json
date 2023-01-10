@@ -113,12 +113,6 @@
       "target": "plugin::users-permissions.user",
       "inversedBy": "users_permissions_users"
     },
-    "vrachis": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::vrachi.vrachi",
-      "inversedBy": "users_permissions_users"
-    },
     "Promo": {
       "type": "uid",
       "maxLength": 6
