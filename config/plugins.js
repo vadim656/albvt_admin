@@ -66,19 +66,18 @@ module.exports = ({ env }) => ({
         {
           uid: 'api::analizy.analizy',
           modelName: 'analizy',
-          transliterate: true,
           fuzzysortOptions: {
-            characterLimit: 150,
-            threshold: -400,
+            characterLimit: 300,
+            // threshold: -500,
             limit: 30,
             keys: [
               {
                 name: 'Name',
-                weight: 200
+                weight: -200
               },
               {
                 name: 'Art',
-                weight: 100
+                weight: 200
               },
               {
                 name: 'Tags',

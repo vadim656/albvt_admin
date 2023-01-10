@@ -105,6 +105,12 @@
     },
     "PopulateComplecs": {
       "type": "boolean"
+    },
+    "Tag2": {
+      "type": "dynamiczone",
+      "components": [
+        "tag.tag"
+      ]
     }
   }
 }
